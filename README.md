@@ -1,7 +1,15 @@
-# pokemongobrasil.github.io
+# PokemonGo.vet.br
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
+
+Se você quer fazer sugestões de código, como cadastro de novos centros pokemon
+(aka locais para adoção responsável) pode fazer um Pull Request aqui. Se não
+souber o que isso significa, pode simplesmente enviar as sugestões via página
+[http://pokemongo.vet.br/indicar-centro-pokemon.html](http://pokemongo.vet.br/indicar-centro-pokemon.html)
+
+Para entrar em contato direto com idealizadores, mande e-mail para
+<strong>pokemongo.vetbr (arroba) gmail.com</strong>.
 
 ## Inspiração
 
