@@ -1902,6 +1902,7 @@
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
+            background-color: white;
 		}
 
 			.icon.major:before {
@@ -1922,15 +1923,16 @@
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+/*			color: #00ffcc;*/
+			color: red;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: greenyellow;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #03caa8;
 		}
 
 /* Image */
