@@ -8,8 +8,12 @@ Se você quer fazer sugestões de código, como cadastro de novos centros pokemo
 souber o que isso significa, pode simplesmente enviar as sugestões via página
 [http://pokemongo.vet.br/indicar-centro-pokemon.html](http://pokemongo.vet.br/indicar-centro-pokemon.html)
 
-Para entrar em contato direto com idealizadores, mande e-mail para
-<strong>pokemongo.vetbr (arroba) gmail.com</strong>.
+# Quem está por trás do projeto
+
+As Líderes de Ginásio são a **Isadora Coffani** [@icoffani](https://github.com/icoffani) e
+a **Renata Givisiez** [@rcigivisiez](https://github.com/rcgivisiez).
+
+Veja a [lista completa de Pokemon Master](https://github.com/pokemongobrasil/pokemongobrasil.github.io/graphs/contributors).
 
 ## Inspiração
 
