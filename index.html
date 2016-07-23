@@ -48,10 +48,6 @@
                   <li><a href="./adote-um-pokemon-de-verdade.html">Adote um pokemon de verdade</a></li>
                   <li><a href="./indicar-centro-pokemon.html">Indicar centro pokemon</a></li>
                   <li><a href="./sobre.html">Sobre</a></li>
-                  <!--<li><a href="generic.html">Generic</a></li>
-                  <li><a href="elements.html">Elements</a></li>
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">Log In</a></li>-->
                 </ul>
               </div>
             </li>
@@ -204,15 +200,64 @@
             <p>Prefere uma aventura virtual ou quer algo real?</p>
           </header>
           <ul class="actions vertical">
-            <li><a href="./adote-um-pokemon-de-verdade.html" class="button fit special">Pet REAL :D</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR" class="button fit" target="_blank">Pet Virtual :)</a></li>
+            <li>
+              <a href="./adote-um-pokemon-de-verdade.html" class="button fit special"
+                 data-ga-event="click"
+                 data-ga-category="Home/Botoes/CTA"
+                 data-ga-action="VerCentrosPokemon"
+                 data-ga-label="CTAFimPagina"
+                 >Pet REAL :D</a>
+            </li>
+            <li>
+              <a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR" class="button fit" target="_blank"
+                 data-ga-event="click"
+                 data-ga-category="Home/Botoes/CTAFail"
+                 data-ga-action="VerDownloadApp"
+                 data-ga-label="CTAFailFimPagina"
+                 >Pet Virtual :)</a>
+            </li>
           </ul>
 
         </div>
       </section>
       <section class="wrapper style1 special">
         <div class="inner">
-
+          <ul class="actions">
+            <li>
+              <!--
+                For obvious reasons, share on WhatsApp only works on mobile that have WhatsApp installed
+                WhatsApp Web will not work by limitation of WhatsApp at present date
+              -->
+              <a href="whatsapp://send?text=Pokemon+GO+no+Brasil+http%3A%2F%2Fpokemongo.vet.br%2F"
+                 title="Share on WhatsApp" target="_blank" 
+                 data-ga-event="click"
+                 data-ga-category="Home/Botoes/CTA"
+                 data-ga-action="SharedOn/WhatsApp"
+                 data-ga-label="CTAFimPagina">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i> Compatilhe no WhatsApp
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/sharer/sharer.php?p%5Burl%5D=http%3A%2F%2Fpokemongo.vet.br%2F"
+                 title="Share on Facebook" target="_blank"
+                 data-ga-event="click"
+                 data-ga-category="Home/Botoes/CTA"
+                 data-ga-action="SharedOn/Facebook"
+                 data-ga-label="CTAFimPagina">
+                <i class="fa fa-facebook" aria-hidden="true"></i> Compatilhe no Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/home?status=Pokemon+GO+no+Brasil+http%3A%2F%2Fpokemongo.vet.br%2F"
+                 title="Share on Twitter" target="_blank"
+                 data-ga-event="click"
+                 data-ga-category="Home/Botoes/CTA"
+                 data-ga-action="SharedOn/Twitter"
+                 data-ga-label="CTAFimPagina">
+                <i class="fa fa-twitter" aria-hidden="true"></i> Compatilhe no Twitter
+              </a>
+            </li>
+          </ul>
           <ul class="actions">
             <li><a href="./sobre.html" class="button small"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Sobre o projeto</a></li>
           </ul>
