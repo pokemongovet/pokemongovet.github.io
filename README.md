@@ -1,12 +1,9 @@
-# PokemonGo.vet.br
+# PokemonGo.vet.br: 19+ locais para adoção (MA, RS, SP)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
 
-Se você quer fazer sugestões de código, como cadastro de novos centros pokemon
-(aka locais para adoção responsável) pode fazer um Pull Request aqui. Se não
-souber o que isso significa, pode simplesmente enviar as sugestões via página
-[http://pokemongo.vet.br/indicar-centro-pokemon.html](http://pokemongo.vet.br/indicar-centro-pokemon.html)
+![Cachorro real derrubando com a pata um Picachu de Pelúcia](http://pokemongo.vet.br/images/real-vs-virtual.gif)
 
 ## Quem está por trás do projeto
 
@@ -14,6 +11,18 @@ As Líderes de Ginásio são a **Isadora Coffani** [@icoffani](https://github.co
 a **Renata Givisiez** [@rcigivisiez](https://github.com/rcgivisiez).
 
 Veja a [lista completa de Pokemon Master](https://github.com/pokemongobrasil/pokemongobrasil.github.io/graphs/contributors).
+
+## Centros pokemon cadastrados (aka locais para adoção de animais)
+- Maranhão: 7+ (São Luiz)
+- Rio Grande do Sul: 11+ (Porto Alegre, Viamão)
+- São Paulo: 1+ (Santos)
+
+## Como contribuir
+
+Se você quer fazer sugestões de código, como cadastro de novos centros pokemon
+(aka locais para adoção responsável) pode fazer um Pull Request aqui. Se não
+souber o que isso significa, pode simplesmente enviar as sugestões via página
+[http://pokemongo.vet.br/indicar-centro-pokemon.html](http://pokemongo.vet.br/indicar-centro-pokemon.html)
 
 ## Inspiração
 
