@@ -3814,3 +3814,18 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* Lembrete */
+
+.lembrete {
+	font-style:italic;
+	background-color:#ccc;
+	border-radius:0.5em;
+	box-shadow:0.2em 0.2em 0.4em #222;
+	padding:1em;
+}
+.lembrete img {
+	max-width:64px;
+	max-height:64px;
+}
+
