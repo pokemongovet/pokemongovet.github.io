@@ -4,9 +4,9 @@
  * @see https://github.com/alligo/google-analytics-event-tracking
  */
 
-/* global: google */
+ /* global: google */
 
-if (window.GAET) {
+ if (window.GAET) {
   console.log('WARNING! GAET loaded more than once');
 }
 
@@ -27,17 +27,17 @@ if (window.GAET) {
    *      data-ga-label="Evento_7_lorem-ipsum"
    * ></form>
    */
-  GAET.prepareEvents = function () {
+   GAET.prepareEvents = function () {
     var els = $('[data-ga-event]');
 
     $.each(els, function (index, value) {
       var el = $(this),
-        evEvent = $(this).data('ga-event'),
-        evCat = $(this).data('ga-category') || '',
-        evAct = $(this).data('ga-action') || '',
-        evLab = $(this).data('ga-label') || '',
-        evVal = $(this).data('ga-value') || undefined,
-        evAdded = $(this).data('ga-gaet') || false;
+      evEvent = $(this).data('ga-event'),
+      evCat = $(this).data('ga-category') || '',
+      evAct = $(this).data('ga-action') || '',
+      evLab = $(this).data('ga-label') || '',
+      evVal = $(this).data('ga-value') || undefined,
+      evAdded = $(this).data('ga-gaet') || false;
 
       if (evAdded) {
         // Do not add 2 times event for the same element
@@ -97,7 +97,7 @@ if (window.GAET) {
    * @param {String}     [evVal]
    * @returns {GAET.prepareEventWait}
    */
-  GAET.prepareEventWait = function (el, elEvent, evEvent, evCat, evAct, evLab, evVal) {
+   GAET.prepareEventWait = function (el, elEvent, evEvent, evCat, evAct, evLab, evVal) {
     var fnDestinoDone = false, fnDestino;
 
     elEvent.preventDefault();
@@ -136,8 +136,8 @@ if (window.GAET) {
         eventLabel: evLab,
         eventValue: evVal || undefined
       }, {
-          hitCallback: fnDestino
-        });
+        hitCallback: fnDestino
+      });
     } catch (e) {
       console.log('GAET.prepareEventWait Exception', e);
     }
@@ -146,20 +146,20 @@ if (window.GAET) {
   /**
    * Init all
    */
-  GAET.initAll = function () {
+   GAET.initAll = function () {
     $(document).ready(function () {
       //if (!!ga) {
-      if (typeof ga != 'undefined') {
-        GAET.debug && console.log('GAET.initAll');
-        GAET.prepareEvents();
-      } else {
-        console.log('GAET: Google analytics.js (ga) not loaded. Aborting');
-      }
+        if (typeof ga != 'undefined') {
+          GAET.debug && console.log('GAET.initAll');
+          GAET.prepareEvents();
+        } else {
+          console.log('GAET: Google analytics.js (ga) not loaded. Aborting');
+        }
       //if (!!_gaq) {
-      if (typeof _gaq != 'undefined') {
-        console.log('GAET: Old Google analytics (_gaq) loaded. Please use only new ga');
-      }
-    });
+        if (typeof _gaq != 'undefined') {
+          console.log('GAET: Old Google analytics (_gaq) loaded. Please use only new ga');
+        }
+      });
   };
   //...
 })(jQuery, window);
