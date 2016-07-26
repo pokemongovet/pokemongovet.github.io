@@ -13,7 +13,7 @@ a **Renata Givisiez** [@rcigivisiez](https://github.com/rcgivisiez).
 Veja a [lista completa de Pokemon Master](https://github.com/pokemongobrasil/pokemongobrasil.github.io/graphs/contributors).
 
 ## Centros pokemon cadastrados (aka locais para adoção de animais)
-- Maranhão: 7+ (São Luiz)
+- Maranhão: 7+ (São Luis)
 - Rio Grande do Sul: 11+ (Porto Alegre, Viamão)
 - São Paulo: 1+ (Santos)
 
