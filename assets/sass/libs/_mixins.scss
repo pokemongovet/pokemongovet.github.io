@@ -3,22 +3,22 @@
 /// @param {string} $where Optional pseudoelement to target (before or after).
 @mixin icon($content: false, $where: before) {
 
-text-decoration: none;
+	text-decoration: none;
 
-&:#{$where} {
+	&:#{$where} {
 
-	@if $content {
-		content: $content;
+		@if $content {
+			content: $content;
+		}
+
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+
 	}
-
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none !important;
-
-}
 
 }
 
@@ -29,11 +29,11 @@ text-decoration: none;
 /// @param {bool} $important If true, adds !important.
 @mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {
 
-@if $important {
-	$important: '!important';
-}
+	@if $important {
+		$important: '!important';
+	}
 
-padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
+	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
 
 }
 
@@ -42,15 +42,15 @@ padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-
 /// @return {string} Encoded SVG data URL.
 @function svg-url($svg) {
 
-$svg: str-replace($svg, '"', '\'');
-$svg: str-replace($svg, '<', '%3C');
-$svg: str-replace($svg, '>', '%3E');
-$svg: str-replace($svg, '&', '%26');
-$svg: str-replace($svg, '#', '%23');
-$svg: str-replace($svg, '{', '%7B');
-$svg: str-replace($svg, '}', '%7D');
-$svg: str-replace($svg, ';', '%3B');
+	$svg: str-replace($svg, '"', '\'');
+	$svg: str-replace($svg, '<', '%3C');
+	$svg: str-replace($svg, '>', '%3E');
+	$svg: str-replace($svg, '&', '%26');
+	$svg: str-replace($svg, '#', '%23');
+	$svg: str-replace($svg, '{', '%7B');
+	$svg: str-replace($svg, '}', '%7D');
+	$svg: str-replace($svg, ';', '%3B');
 
-@return url("data:image/svg+xml;charset=utf8,#{$svg}");
+	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
 
 }
