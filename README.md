@@ -8,7 +8,7 @@ com a temática de convencer pessoas a adotarem animais de estimação.
 ## Quem está por trás do projeto
 
 As Líderes de Ginásio são a **Isadora Coffani** [@icoffani](https://github.com/icoffani) e
-a **Renata Givisiez** [@rcigivisiez](https://github.com/rcgivisiez).
+a **Renata Givisiez** [@rcgivisiez](https://github.com/rcgivisiez).
 
 Veja a [lista completa de Pokemon Master](https://github.com/pokemongobrasil/pokemongobrasil.github.io/graphs/contributors).
 
