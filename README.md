@@ -10,7 +10,7 @@ com a temática de convencer pessoas a adotarem animais de estimação.
 As Líderes de Ginásio são a **Isadora Coffani** [@icoffani](https://github.com/icoffani) e
 a **Renata Givisiez** [@rcgivisiez](https://github.com/rcgivisiez).
 
-Veja a [lista completa de Pokemon Master](https://github.com/pokemongobrasil/pokemongobrasil.github.io/graphs/contributors).
+Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemongo.vet.br/graphs/contributors).
 
 ## Centros pokemon cadastrados (aka locais para adoção de animais)
 - Maranhão: 7+ (São Luiz)
