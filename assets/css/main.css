@@ -3845,6 +3845,31 @@
 		width: 25%;
 		list-style: none;
 	}
+	.listagem-place {
+		padding: 0 25px;
+		margin-bottom: 2.5em;
+	}
+	.listagem-place h3 {
+		margin: 0;
+	}
+	.listagem-place ul {
+		margin: 0;
+		padding: 0;
+	}
+	.listagem-place ul li {
+		display: inline-block;
+		padding: 0;
+	}
+	.listagem-place .icon {
+		margin-right: 25px;
+	}
+	.listagem-place .icon:before {
+		margin-right: 8px;
+	}
+	.listagem-place p {
+		margin-top: .5em;
+	}
+
 	@media screen and (max-width: 736px) {
 		.listagem-nav ul {
 			width: 50%;
