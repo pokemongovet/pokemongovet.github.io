@@ -31,6 +31,16 @@ Se você quer fazer sugestões de código, como cadastro de novos centros pokemo
 souber o que isso significa, pode simplesmente enviar as sugestões via página
 [http://pokemongo.vet.br/indicar-centro-pokemon.html](http://pokemongo.vet.br/indicar-centro-pokemon.html)
 
+## Outras formas de contribuir com o projeto
+
+**Pessoas com experiência em marketing e redes sociais:** mesmo tendo na equipe um desenvolvedor com experiência em implementar métricas de conversão, nós ainda temos desafios específicos para o direcionamento de estratégias, incluindo público-alvo e conteúdo. Para ajudar podemos deixar em aberto nossos dados e você pode dar a sua análise.
+
+**Desenvolvedores de software:** se por um lado, queremos incentivar a primeira adoção de animais, também queremos trazer novas pessoas para o software livre; se você sabe o mínimo de git, HTML e/ou CSS, faça parte também!
+
+**Designers e editores de vídeo:** precisamos de ajuda com material de divulgação, e, em função do público-alvo, também com GIFs ou mesmo com vídeos.
+
+**ONGs, grupos ou indivíduos protetores de animais:** vocês podem fazer críticas, sugestões e direcionar interessados em adoção. Também teremos o maior prazer de colocá-lo em nosso site (clique aqui para cadastrar sua organização).
+
 ## Inspiração
 
 - [20/07/2016 - Pokémon Go inspira campanha de adoção de animais em Esteio, no RS](http://g1.globo.com/rs/rio-grande-do-sul/noticia/2016/07/pokemon-go-inspira-campanha-de-adocao-de-animais-em-esteio-no-rs.html)
