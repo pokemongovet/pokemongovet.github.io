@@ -3830,4 +3830,8 @@
 			width: 100%;
 			padding: 0;
 		}
+		.register-form .special {
+			float: none;
+			width: 100%;		
+		}
 	}
