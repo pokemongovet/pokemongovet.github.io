@@ -3835,3 +3835,20 @@
 			width: 100%;		
 		}
 	}
+
+/* Listagem */
+	.listagem hr {
+		clear: both;
+	}
+	.listagem-nav ul {
+		float: left;
+		width: 25%;
+		list-style: none;
+	}
+	@media screen and (max-width: 736px) {
+		.listagem-nav ul {
+			width: 50%;
+			line-height: 2em;
+		}
+	}
+	
