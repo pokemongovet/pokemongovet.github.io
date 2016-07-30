@@ -69,16 +69,16 @@
           <div class="inner">
             <form action="https://formspree.io/cauenqueiroz@gmail.com" method="POST">
               <label for="">
-                Nome do Local
-                <input type="text" name="nome">
+                Nome do local ou pessoa de referência
+                <input type="text" name="nome" required>
               </label>
               <label class="input-1-3">
                 Estado
-                <input type="text" name="estado">
+                <input type="text" name="estado" required>
               </label>
               <label class="input-1-3">
                 Cidade
-                <input type="text" name="cidade">
+                <input type="text" name="cidade" required>
               </label>
               <label class="input-1-3 input-np">
                 Endereço
@@ -91,17 +91,21 @@
               </label>
               <label class="input-1-3">
                 Email
-                <input type="text" name="email">
+                <input type="email" name="email">
               </label>
               <label class="input-1-3 input-np">
                 Site/Facebook/etc
                 <input type="text" name="site">
               </label>
               <label>
-                Descrição do Local
-                <textarea name="desc" id="" cols="30" rows="10"></textarea>
-              </label>   
-
+                Dê uma descrição curta sobre porque esta é uma boa referência. Quais animais têm para adoção?
+                <textarea name="desc" id="" cols="30" rows="5"></textarea>
+              </label>  
+              
+              <label>
+                Seu e-mail de contato (opcional)
+                <input type="email" name="email-contrib">
+              </label>              
               <input type="submit">           
             </form>
           </div>
