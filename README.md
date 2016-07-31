@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 24+ locais para adoção (MA, MT, MG, RS, SP)
+# PokemonGo.vet.br: 31+ locais para adoção (MA, MT, MG, RS, SP,SC)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -24,6 +24,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 - Mato Grosso: 4+ (Cuiabá)
 - Minas Gerais: 2+ (Uberlândia)
 - Rio Grande do Sul: 15+ (Bagé, Camaquã, Esteio, Osório, Porto Alegre, Viamão)
+- Santa Catarina: 3+ (Florianopólis)
 - São Paulo: 1+ (Santos)
 
 ## Como contribuir
