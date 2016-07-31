@@ -3814,3 +3814,24 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* Contact Form */
+	.input-1-3 {
+		float: left;
+		width: 33.33%;
+		padding: 0 1em 0 0;
+	}
+	.input-np {
+		padding-right: 0;
+	}
+	@media screen and (max-width: 736px) {
+		.input-1-3 {
+			float: none;
+			width: 100%;
+			padding: 0;
+		}
+		.register-form .special {
+			float: none;
+			width: 100%;		
+		}
+	}

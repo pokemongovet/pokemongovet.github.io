@@ -67,16 +67,47 @@
         </header>
         <section class="wrapper style5">
           <div class="inner">
-
-            <!--
-            @todo fazer esse iframe responsivo na lagura e possivelmente na altura
-            -->
-            <div style="text-align: center">
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6OsZvFzZK-u2ZGMykeGJla50ZJfjGF-qnDZc2AZuY0jFTQw/viewform?embedded=true" 
-                      width="700" height="1600" frameborder="0" marginheight="0" marginwidth="0">
-                Carregando…
-              </iframe>
-            </div>
+            <form action="https://formspree.io/cauenqueiroz@gmail.com" method="POST" class="register-form">
+              <label for="">
+                Nome do local ou pessoa de referência
+                <input type="text" name="nome" required>
+              </label>
+              <label class="input-1-3">
+                Estado
+                <input type="text" name="estado" required>
+              </label>
+              <label class="input-1-3">
+                Cidade
+                <input type="text" name="cidade" required>
+              </label>
+              <label class="input-1-3 input-np">
+                Endereço
+                <input type="text" name="endereco">
+              </label>
+              </label>
+              <label class="input-1-3">
+                Telefone
+                <input type="text" name="telefone">
+              </label>
+              <label class="input-1-3">
+                Email
+                <input type="email" name="email">
+              </label>
+              <label class="input-1-3 input-np">
+                Site/Facebook/etc
+                <input type="text" name="site">
+              </label>
+              <label>
+                Dê uma descrição curta sobre porque esta é uma boa referência. Quais animais têm para adoção?
+                <textarea name="desc" id="" cols="30" rows="5"></textarea>
+              </label>  
+              
+              <label>
+                Seu e-mail de contato (opcional)
+                <input type="email" name="email-contrib">
+              </label>              
+              <input type="submit" class="special">           
+            </form>
           </div>
         </section>
       </article>
