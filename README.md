@@ -21,7 +21,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 
 ## Centros pokemon cadastrados (aka locais para adoção de animais)
 - Distrito Federal: 10+ (Brasília)
-- Espiríto Santo: 4+ (Vitória)
+- Espírito Santo: 4+ (Vitória)
 - Goiás: 10+ (Goiânia)
 - Maranhão: 7+ (São Luiz)
 - Mato Grosso: 4+ (Cuiabá)
