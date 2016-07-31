@@ -20,6 +20,7 @@ a **Renata Givisiez** [@rcgivisiez](https://github.com/rcgivisiez).
 Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemongo.vet.br/graphs/contributors).
 
 ## Centros pokemon cadastrados (aka locais para adoção de animais)
+- Goiás: 10+ (Goiânia)
 - Maranhão: 7+ (São Luiz)
 - Mato Grosso: 4+ (Cuiabá)
 - Minas Gerais: 2+ (Uberlândia)
