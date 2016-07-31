@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 63+ locais para adoção (DF,ES,MA, MT, MG, RS, RJ, SP, SC)
+# PokemonGo.vet.br: 63+ locais para adoção (BA, DF, ES, MA, MT, MG, RS, RJ, SP, SC)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -20,6 +20,7 @@ a **Renata Givisiez** [@rcgivisiez](https://github.com/rcgivisiez).
 Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemongo.vet.br/graphs/contributors).
 
 ## Centros pokemon cadastrados (aka locais para adoção de animais)
+- Bahia : 8+ (Salvador)
 - Distrito Federal: 10+ (Brasília)
 - Espírito Santo: 4+ (Vitória)
 - Goiás: 10+ (Goiânia)
