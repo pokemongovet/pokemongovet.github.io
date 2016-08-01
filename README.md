@@ -14,6 +14,7 @@ aberto e ações de marketing em redes sociais.
 
 **Detaque**
 - Saiba mais sobre [Solução Ponta-a-Ponta para adoção de animais (i.e. “Catioro GO”)](https://github.com/pokemongovet/pokemongo.vet.br/issues/27)
+- Não sabe programar mas quer ajudar? [Lista de problemas que não programadores fazem toda diferença](https://github.com/pokemongovet/pokemongo.vet.br/labels/para-nao-programadores)
 - Sabe HTML? [Ajude agora mesmo a cumprirmos a 2ª meta da iniciativa](https://github.com/pokemongovet/pokemongo.vet.br/issues/36).
 Precisamos listar as milhares de opções, e [cada local FAZ diferença](https://www.youtube.com/watch?v=5-sfG8BV8wU)!
 
