@@ -12,6 +12,11 @@ virtuais trazidos pelo Pokémon Go, aplicativo de realidade aumentada, um meio
 de incentivar a adoção de animais reais. Atua com compartilhamento de código
 aberto e ações de marketing em redes sociais.
 
+**Detaque**
+- Saiba mais sobre [Solução Ponta-a-Ponta para adoção de animais (i.e. “Catioro GO”)](https://github.com/pokemongovet/pokemongo.vet.br/issues/27)
+- Sabe HTML? [Ajude agora mesmo a cumprirmos a 2ª meta da iniciativa](https://github.com/pokemongovet/pokemongo.vet.br/issues/36).
+Precisamos listar as milhares de opções, e [cada local FAZ diferença](https://www.youtube.com/watch?v=5-sfG8BV8wU)!
+
 ## Quem está por trás do projeto
 
 As Líderes de Ginásio são a **Isadora Coffani** [@icoffani](https://github.com/icoffani) e
