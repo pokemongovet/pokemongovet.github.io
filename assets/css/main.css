@@ -3847,10 +3847,14 @@
 	}
 	.listagem-place {
 		padding: 0 25px;
-		margin-bottom: 2.5em;
+		margin-bottom: 0.5em;
+	}
+	.listagem h2 {
+		margin-top: 1em;
 	}
 	.listagem-place h3 {
 		margin: 0;
+		font-size: 1em;
 	}
 	.listagem-place ul {
 		margin: 0;
