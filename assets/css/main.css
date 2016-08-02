@@ -3274,8 +3274,8 @@
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
-			position: absolute;
 			top: 0;
+			text-align: center;
 		}
 
 			#header h1 a {
@@ -3879,4 +3879,14 @@
 			width: 50%;
 			line-height: 2em;
 		}
+	}
+	
+	/* Fork Ribbon */
+
+	.forkme {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		border: 0px none;
+		z-index: 10001;
 	}
