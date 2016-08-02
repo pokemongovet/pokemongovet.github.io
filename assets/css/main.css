@@ -3274,8 +3274,8 @@
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
-			position: absolute;
 			top: 0;
+			text-align: center;
 		}
 
 			#header h1 a {
