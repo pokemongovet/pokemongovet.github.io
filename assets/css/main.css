@@ -3880,3 +3880,13 @@
 			line-height: 2em;
 		}
 	}
+	
+	/* Fork Ribbon */
+
+	.forkme {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		border: 0px none;
+		z-index: 10001;
+	}
