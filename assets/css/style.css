@@ -162,6 +162,10 @@
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
   box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
 }
+.super-destaque {
+  background-color: orange !important;
+  background-image: linear-gradient(orange, orange) !important;
+}
 
 /* --------------- */
 
