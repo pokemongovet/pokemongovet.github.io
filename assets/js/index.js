@@ -4,16 +4,17 @@ $(document).on('ready',function(){
 	var choosenPackage = window.location.search.split('=')[1];
 
 	if(typeof choosenPackage !== 'undefined'){
-		if(choosenPackage !== 'basico') {
-			$('.hide-basico').hide();
+		$('.hide-tipopadrao').hide();
+		if(choosenPackage === 'basico') {
+			$('.show-basico').show();
 		}
 
 		if(choosenPackage == 'profissional') {
 			$('.show-profissional').show();
 		}
 
-		if(choosenPackage == 'bussiness') {
-			$('.show-bussiness').show();
+		if(choosenPackage == 'premium') {
+			$('.show-premium').show();
 		}
 
 		if(choosenPackage == 'promocional') {
