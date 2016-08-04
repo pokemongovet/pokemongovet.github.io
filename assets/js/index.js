@@ -4,8 +4,8 @@ $(document).on('ready',function(){
 	var choosenPackage = window.location.search.split('=')[1];
 
 	if(typeof choosenPackage !== 'undefined'){
-		if(choosenPackage !== 'basic') {
-			$('.hide-basic').hide();
+		if(choosenPackage !== 'basico') {
+			$('.hide-basico').hide();
 		}
 
 		if(choosenPackage == 'profissional') {
