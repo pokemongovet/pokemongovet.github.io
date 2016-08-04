@@ -4,7 +4,9 @@ $(document).on('ready',function(){
 	var choosenPackage = window.location.search.split('=')[1];
 
 	if(typeof choosenPackage !== 'undefined'){
-		$('.hide-basic').hide();
+		if(choosenPackage !== 'basic') {
+			$('.hide-basic').hide();
+		}
 
 		if(choosenPackage == 'profissional') {
 			$('.show-profissional').show();
