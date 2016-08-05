@@ -141,7 +141,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="landing">
-
+	<div id="bio_ep_content"><!-- your popup HTML goes here --></div>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
 
@@ -474,7 +474,7 @@
         </p>
       </footer>
     </div>
-
+    
     <a href="https://github.com/pokemongovet/pokemongo.vet.br"><img class="forkme" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 
     <!-- Scripts -->
@@ -508,5 +508,32 @@
     </script>
     <script src="assets/js/gaet.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- Exit popup -->
+    <script src="assets/js/plugins/exitpopup.min.js"></script>
+    <script src="assets/js/plugins/jshake.min.js"></script>
+    
+    <script type="text/javascript">
+		//Options
+		bioEp.init({
+			html: '<div id="bio_ep_content">' +
+				'<i class="fa fa-paw fa-5x" aria-hidden="true"></i>'+
+				'<span>Opa, Opa, Opa</span>' +
+				'<span>Porque já vai sair? Já alugou seu PET?</span>' +
+				'<span>Temos que pegar!!</span>' +
+				'<a href="#cta" class="button special fit small">Tá, eu quero!</a>' +
+				'</div>',
+			css: '#bio_ep {width: 400px; height: 300px; color: #333; background-color: #fafafa; text-align: center;}' +
+				'#bio_ep_content {padding: 20px;}' +
+				'#bio_ep_content span:nth-child(2) {display: block; color: #333; font-size: 1.75em; line-height: 1.75em; font-weight: bold; text-transform: uppercase;}' +
+				'#bio_ep_content span:nth-child(3) {display: block; font-size: 16px;}' +
+				'#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}',				
+			cookieExp: 0
+		});
+    </script>
+	<style type="text/css">
+        #bio_ep_bg {} // background
+        #bio_ep {} // popup
+        #bio_ep_close {} // close button
+    </style>
   </body>
 </html>
