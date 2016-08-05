@@ -1,0 +1,512 @@
+<!--
+  NOTA:
+    Esta página é a mais polêmica dentre as estratégias de incetivar adoção de animais. Leia esse comentário antes de
+    criticar e, assuma que é opinião pessoal minha, Emerson, e que, todo ou em parte, pode não ser opinião dos demais
+    contribuidores.
+
+    MOTIVAÇÃO DESTA PÁGINA (e de certa forma do PokemonGO.vet.br como um todo)
+      -> Atrair potenciais pessoas que nunca adoratam um animal resgatado e que tem potencial
+      -> Pessoas que, previamente, não tem simpatia previa com adoção (opinião neutra ou mesmo negativa)
+      -> Quem nunca fez doação financeira ou outros tipos de contribuição pela causa
+
+    PEFIL DO PUBLICO ALVO
+      -> 16 a 28 anos
+      -> Não foram cativados por estratégias de adoção existentes
+      -> Nunca adotaram de um abrigo. Talvez já tenham ficado com "algum animal que apareceu no caminho"
+
+    SUPOSIÇÕES SOBRE O QUE O PUBLICO ALVO QUER E NÃO QUER
+      -> Público alvo gosta de pokemons, desenhos, "coisas fofinhas"
+      -> Não aceitariam adotar um animal que parece doente/velhinho/machucado sem tocar ou ser convencidos
+                                                                                                         presencialmente
+      -> NÃO gosta de coisas negativas como forma de pressão para fazer uma ação por algo que ainda não teem empatia
+      -> Inicialmente, não veem problema em comprar animais de raça
+      -> Talvez não saibam que, animais adotados, podem ter vantagens
+          -> Podem já vir vacinados
+          -> Podem já vir castrados (e talvez a pessoa nem saiba que castrado é algo positivo!)
+          -> Por serem Sem-Raça-Definida, tendem a ter menos problemas de saúde (genética FTW!)
+
+    MACRO-ESTRATÉGIAS
+      -> Não ser um produto ou serviço, mas "ser uma experiência";
+          -> ... preferencialmente uma boa experiência inicial, para captar pessoas diferentes
+      -> Marketing Sensorial (veja http://www.portal-administracao.com/2014/01/marketing-sensorial-de-experiencias.html)
+      -> (...)
+      -> Associar boas experiências com o que queremos convencer (algo como "vídeos de animais vestidos de coisas
+                                                                                                                 fofas")
+
+    ESTRATÉGIAS DESTA PÁGINA, que, de certa forma, pode ser interpretada como "incentivo a tratar animal como um bem"
+    (outras páginas de pokemongo.vet.br podem ter abordagens diferentes, falo aqui apenas de /aluguel-de-animais.html)
+      -> Satisfazer o que está foi dito em "suposições sobre publico alvo quer e não quer", ainda que não incluir
+         necessáriamente todos os positivos, mas definitivamente NÃO incluir qualquer negativo
+      -> Servir como PRIMEIRO INCENTIVO a alguém fazer adoção, não o único, nem de alguém que já foi convencido
+      -> Testar se, essa idéia é realmente aplicável https://twitter.com/xGogsx/status/755876264242708480, que diz
+         "Minha história favorita até agora. Um abrigo de animais postou algo como "se você é um adulto e não quer
+         que outras pessoas saibam que você está jogando pokemon, nós podemos alugar nossos animais adotáveis para você
+         por 5 dólares americanos, então você vai parecer que está apenas andando com um animal de estimação". Haha,
+         certo? Bem, aqui alguns resultados até agora
+         1) Eles até uma lista de espera de pessoas que querem PAGAR PELO PRIVILÉGIO DE LEVAR UM CÃO PARA PASSEAR
+         2) Eles fizeram tanto dinheiro em taxas de adoção, que preferiram aumentar as taxas de adoção
+         3) Quando as pessoas alugando os cães estão passeando, elas postam fotos no Facebook e Instagram. Outras
+            pessoas estão vindo para o abrigo para adotar cães específicos
+         4) Em pelo menos duas ocasiões, pessoas chegaram no abrigo e disseram: "Ei, eu não imaginava que eu iria querer
+            um cão. Mas eu e ESTE cão estamos nos dando MUITO bem. Eu não vou devolver ele para vocês"
+         5) O abrigo não tem mais cães para adoção, e tem uma lista de espera, porque a maioria dos cães foram adotados!
+            estão dizendo que eles estão trazendo cães de outros abrigos para serem "alugados".
+
+    CRÍTICAS RECEBIDAS ATÉ ENTÃO
+      -> [Consenso, removido] antes mesmo de sair a publico, a @icoffani revisou e reclamou e resolvemos antes de lançar ao publico no commit https://github.com/pokemongovet/pokemongo.vet.br/commit/fe6decb4703053194ecf6e9663883496ffc6d038
+          -> Frase escrita por fititnt sobre como motivação incluir também "mãe, namorada"; agora está generico. Ficou
+             melhor, comentário anterior desnecessário.
+          -> Tratar animal como "melhor acessorio". Foi alterada para "melhor que qualqer acessório". Ficou melhor.
+      -> [Não houve consenso inicial pleno] @icoffani não gostou da primeira versão que viu de /aluguel-de-animais.html;
+         disse que nossa /index.html já tinha sofrido críticas, vide https://github.com/pokemongovet/pokemongo.vet.br/issues/9
+         e https://github.com/pokemongovet/pokemongo.vet.br/pull/4 e que tratar animais como um bem alugável iria causar
+         provavelmente repulsa por pessoas que amam animais;
+        -> Citei o estudo de caso https://twitter.com/xGogsx/status/755876264242708480
+        -> Citei nosso próprio estudo de caso que, nossa página inicial, quando logo depois de falar que "animais
+           eram melhores e mais fofinhos que pokemons" jogamos um balde de agua fria falando de responsabilidades e
+           afins, o % de coversão (clique para adotar, e até mesmo para baixar o aplicativo no final da página) eram
+           menores do que a versão sem fazer terrorismo (ok, o mundo é cruel, mas nosso publico não gosta de coisas
+           crueis).
+        -> Usei o argumento de que, "se é pra fazer, é pra fazer bem feito"; se for seguir uma estratégia, mas não dá
+           pra fazer uma colcha de retalhos sem um objetivo focado. Remover referências a "aluguel" ou mesmo
+           concessionárias, era melhor jogar a landing page /aluguel-de-animais.html fora; concordo em fazer melhorias,
+           mas temos que pelo menos ter uma direção; O item a seguir implementa essas melhorias
+      -> [Consenso, melhorado] a @icoffani fez críticas adicionais sobre "tratar menos como objeto" os animais,
+          e fazer alertas de que não são brinquedos
+        -> Há referências, com nome lúdico de apólice de seguro e referência a contrato da lei que pune maus tratos a
+           animais, link http://www.planalto.gov.br/ccivil_03/leis/L9605.htm#art32. Por motivos escritos até aqui,
+           não acredito e tenho evidencias, ainda que heurísticas, de que gerar muito estresse e usar palavras negativas
+           melhorem conversão. Creio que isso resolve o problema sem causar outros piores
+        -> Reforcei uma segunda vez, referência a ter de aceitar um "Termo de Responsabilidade de Adoção" a concluir
+           o processo completo.
+
+    PROVAVEIS POSSÍVEIS PERGUNTAS, E RESPOSTAS QUE O EU DARIA (pode, ou não, ser opinião de outros contribuidores)
+      -> Tratar os animais como um bem que pode ser pago e alugado não é cruel, e vai contra o que é pregado normalmente?
+        -> Há evidências (citadas anteriormente aqui) que dizem que isso pode fomentar adoção de forma muito
+           significativa, e, no mínimo, merece ser testado.
+      -> Não pra falar de forma um pouco "menos" comercial? Deixar mais claro que "animal não é brinquedo" e afins?
+        -> É possível fazer muita coisa, porém se basear mais em dados e estudos de casos do que meramente meramente a
+           opinião pessoal é algo que tende a funcionar bem. Se você tem opiniões fortes diferentes, é livre para tentar
+           diferente. O código desse repositório está no github. Ninguém vai lhe impedir.
+      -> Sou de uma Ong, acho que pokemon é ruim, e acredito que a ideia de vocês vá trazer interessados menos
+         cuidadosos, pois quem chega tratando animal com "valor" e como "bem que pode trocar" deve ser mau adotador
+        -> Em um primeiro momento isso pode parecer que sim,  PORÉM talvez o fato da pessoa ter oportunidade de
+           passear por um dia ou um final de semana com um animal dê mais confiança e certeza nela do que se não o
+           fizesse.
+        -> Você pode simplesmente tomar mais cuidado caso alguém chegue na sua organização atráves de nossa iniciativa
+           fazendo uma checagem melhor se ela está interessada ou não
+        -> Você pode simplesmente pedir pra ter sua organização removida da listagem aqui
+
+    NOTA A QUEM FOR EDITAR OU SUGERIR ALTERAÇÕES NESTA PÁGINA
+      Por favor, pelo menos leia toda essa motivação, e cuidado com alterações de conteúdo que pareçam deixar a ideia
+      geral "menos otimista". A responsabilidade real de checar se a adoção deve ou não ocorrer não é minha nem sua, é
+      de quem cuida dos animais.
+
+    (@fititnt, 2016-08-04 06:53)
+-->
+<!--
+  Para maiores informações, acesse https://github.com/pokemongovet/pokemongo.vet.br
+-->
+<!--
+    Spectral by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aluguel de animais para jogar Pokemon GO - Melhor concessionária de animais do Brasil</title>
+    <meta property="og:title" content="Aluguel de animais para jogar Pokemon GO" />
+    <meta name="twitter:title" content="Aluguel de animais para jogar Pokemon GO" />
+
+    <link rel="canonical" href="http://pokemongo.vet.br/aluguel-de-animais.html" />
+    <meta property="og:url" content="http://pokemongo.vet.br/aluguel-de-animais.html" />
+
+    <meta name="description" content="Você não é mais criança, joga muito Pokemon GO e não quer que os outros saibam? Agora seus problemas acabaram!" />
+    <meta property="og:description" content="Você não é mais criança, joga muito Pokemon GO e não quer que os outros saibam? Agora seus problemas acabaram!" />
+    <meta name="twitter:description" content="Você não é mais criança, joga muito Pokemon GO e não quer que os outros saibam? Agora seus problemas acabaram!" />
+
+    <meta property="og:image" content="http://pokemongo.vet.br/images/compartilhamento-padrao-1.jpg" />
+    <meta name="twitter:image" content="http://pokemongo.vet.br/images/compartilhamento-padrao-1.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@pokemongovet" />
+    <meta property="fb:app_id" content="1070914819623726" />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="landing">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html">Pokemon GO</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="./">Início</a></li>
+                  <li><a href="./adote-um-pokemon-de-verdade.html">Adote um Pokemon de verdade</a></li>
+                  <li><a href="./aluguel-de-animais.html">Aluguel de animais</a></li>
+                  <li><a href="./indicar-centro-pokemon.html">Indicar centro Pokemon</a></li>
+                  <li><a href="./sobre.html">Sobre</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <h2>Aluguel de animais para jogar Pokemon GO</h2>
+          <p>Você não é mais criança, joga muito Pokemon GO<br />
+            e não quer que os outros saibam?<br />
+            Agora seus problemas acabaram!
+            <!--Shiny<br />
+            crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>-->
+          <ul class="actions">
+            <li><a href="#one" class="more scrolly"><div class="button special">Saiba mais</div></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- One -->
+      <section id="one" class="wrapper style1 special">
+        <div class="inner">
+          <header class="major">
+            <h2>Não aceite imitações! PokemonGO.vet.br é<br />
+              melhor concessionária de animais do Brasil!</h2>
+            <p><br />
+              Somos especialistas na área. Os animais indicados aqui são compatíveis com
+              todos os modelos de celulares usados em PokemonGo*
+            </p>
+            <p style="font-size: 0.7em">
+              <em>Não garantimos suporte ao Windows Phone</em>
+            </p>
+
+          </header>
+          <ul class="icons major">
+            <li><span class="icon fa-fire major style1"><span class="label">Lorem</span></span></li>
+            <li><span class="icon fa-leaf major style2"><span class="label">Ipsum</span></span></li>
+            <li><span class="icon fa-tint major style3"><span class="label">Dolor</span></span></li>
+          </ul>
+        </div>
+        <a href="#two" class="more scrolly">Quero garantir o meu!</a>
+      </section>
+
+      <!-- Two -->
+      <section id="two" class="wrapper alt style2">
+        <section class="spotlight">
+          <div class="image"><img src="images/entei.gif" alt="Entei soltando ataque de energia" /></div><div class="content">
+            <h2>Acabou a bateria?</h2>
+            <p>Eles têm energia infinita! Não precisa recarregar na tomada!</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+            <h2>Saem muito bem em<br />
+              suas selfies</h2>
+            <p>Última novidade quando se trata de tecnologia, resolução e compatibilidade com dispositivos e humanos (além de serem muito fotogênicos).
+            </p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/catioro-selvagem.gif" alt="Filhote de cachorro moerndo dedo do dono" /></div><div class="content">
+            <h2>Você não pode domesticar<br />
+              o que nasceu pra ser selvagem</h2>
+            <p>99% anjo, mas aquele 1%...</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/real-vs-virtual.gif" alt="Cachorro derrubando Pikachu de pelúcia" /></div><div class="content">
+            <h2>No PvP<br />
+              são imbatíveis</h2>
+            <p>Você gosta de combate? Real &gt;&gt;&gt; Virtual</p>
+          </div>
+        </section>
+      </section>
+
+      <!--
+
+      @todo por mais gifs?
+
+      -->
+
+      <!-- Three -->
+
+      <section id="three" class="wrapper style3 special">
+        <div class="inner">
+          <header class="major">
+            <h2>
+              Por que a companhia de um animal de estimação<br />
+              é melhor do que qualquer acessório <br />
+              para Pokemon GO</h2>
+            <p>
+              Todo jogador Hardcore de Pokemon Go fica sem bateria<br />
+              e nós sabemos que isso é péssimo. Você então pensa: <br />
+              qual vai ser seu primeiro investimento?
+            </p>
+            <p>
+              A concessionária PokemonGO.vet.br <br />
+              lista diversas vantagens que o aluguel de animais <br/>
+              tem e que vão muito além do que você teria com <br/>
+              qualquer acessório
+            </p>
+          </header>
+          <ul class="features">
+            <li class="icon fa-heart-o">
+              <h3>Companheiros para toda a vida</h3>
+              <p>Cães vivem aproximadamente de 14 a 18 anos dando muito amor para você. Tem coisa melhor?</p>
+            </li>
+            <li class="icon fa-laptop">
+              <h3>Não desaparecem quando o servidor cai</h3>
+              <p>Com um bichinho de estimação você não precisa de celular e muito menos de conexão de internet para brincar com ele - diversão 100% garantida. </p>
+            </li>
+            <li class="icon fa-heart">
+              <h3>Diminui o stress</h3>
+              <p>Animais de estimação reduzem o stress causado pelas batalhas virtuais! </p>
+            </li>
+            <li class="icon fa-smile-o">
+              <h3>Companhia real</h3>
+              <p>Animais são companheiros fiéis e reais, estão ali do seu lado para o que der e vier! </p>
+            </li>
+            <li class="icon fa-paw">
+              <h3>Vagas abertas</h3>
+              <p>Adotando um animalzinho, você libera uma vaga para outro que precisa. </p>
+            </li>
+            <li class="icon fa-users">
+              <h3>Fique mais sociável</h3>
+              <p>Assim como o Pokémon GO foi criado para ajudar a socializar, o seu animalzinho também te ajudará.</p>
+            </li>
+            <li class="icon fa-heartbeat">
+              <h3>Fique em boa forma</h3>
+              <p>O Pokémon GO ajuda as pessoas a se exercitarem com apenas um telefone. Imagine o que um animalzinho cheio de energia não faz?</p>
+            </li>
+            <li class="icon fa-puzzle-piece">
+              <h3>É divertido</h3>
+              <p>Pokémon é um clássico que toda criança já brincou. Um animal ajuda a resgatar toda a alegria de ser criança, sem ficar claro que também é pelo por causa do jogo</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="four" class="wrapper style3 special" style="padding-top: 1em">
+        <div class="inner">
+          <header class="major">
+            <h2>Como funciona?</h2>
+            <p>
+              É um animal de estimação, que, depois de escolher<br />
+              um pacote e assinar um termo de compromisso <br />
+              você leva para passear junto com você ao caçar Pokemons.
+            </p>
+            <p>
+              Aponte animal para a mesma direção que está<br />
+              o pokemon desejado que quer pegar com seu celular.<br />
+              Pronto! Agora vão achar que está levando seu cão <br />
+              para passear!
+            </p>
+            <p>
+              <a href="http://www.planalto.gov.br/ccivil_03/leis/L9605.htm#art32"
+                 data-ga-event="click"
+                 data-ga-category="Aluguel/Botoes/CTA"
+                 data-ga-action="VerL9605art32--l1"
+                 data-ga-label="CTAAluguel"
+                 >
+                Veja nossa apólice de seguros
+              </a>.
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="cta" class="wrapper style4">
+
+        <div class="inner">
+          <h2>Escolha seu pacote de aluguel de animais</h2>
+          <!--<p>Prefere uma aventura virtual ou quer algo real?</p>-->
+        </div>
+        <div id="pricing-table" class="clear">
+          <div class="plan">
+            <h3 style="color: black">Basico<span>R$10</span></h3>
+            <a class="signup" href="./adote-um-pokemon-de-verdade.html?pacote=basico"
+               data-ga-event="click"
+               data-ga-category="Aluguel/Botoes/CTA"
+               data-ga-action="VerCentrosPokemonBasico"
+               data-ga-label="CTAAluguel"
+               >Aluguar</a>
+            <ul>
+              <li>Aluguel limitado a 6 horas</li>
+              <li>Não disponível em feriados*</li>
+              <li>Proibido uso em vias publicas</li>
+            </ul>
+          </div>
+          <div class="plan" id="most-popular">
+            <h3 style="color: black">Profissional <span>R$25</span></h3>
+            <a class="signup super-destaque" href="./adote-um-pokemon-de-verdade.html?pacote=profissional"
+               data-ga-event="click"
+               data-ga-category="Aluguel/Botoes/CTA"
+               data-ga-action="VerCentrosPokemonProfissional"
+               data-ga-label="CTAAluguel"
+               >Alugar</a>
+            <ul>
+              <li>Aluguel limitado a 1 dia</li>
+              <li>Melhor custo-benefício</li>
+              <li>O mais usado!</li>
+              <li>Proibido uso em vias publicas</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <h3 style="color: black">PREMIUM<span>R$100+</span></h3>
+            <a class="signup" href="./adote-um-pokemon-de-verdade.html?pacote=premium"
+               data-ga-event="click"
+               data-ga-category="Aluguel/Botoes/CTA"
+               data-ga-action="VerCentrosPokemonPremium"
+               data-ga-label="CTAAluguel"
+               >Alugar</a>
+            <ul>
+              <li>Aluguel de final de semana</li>
+              <li>Preços maiores para períodos maiores</li>
+              <li>Suporte por telefone</li>
+              <li>Proibido uso em vias publicas</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <h3 style="color: black">Promocional<span>R$0*</span></h3>
+            <a class="signup" href="./adote-um-pokemon-de-verdade.html?pacote=promocional"
+               data-ga-event="click"
+               data-ga-category="Aluguel/Botoes/CTA"
+               data-ga-action="VerCentrosPokemonPromocional"
+               data-ga-label="CTAAluguel"
+               >Adotar</a>
+            <ul>
+              <li>Aluguel por tempo ilimitado</li>
+              <li>Cupom: <span style="color: blue; font-weight: 700">#ADOCAOPOKEMON</span></li>
+              <li>Proibido uso em vias publicas</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="wrapper style1 special">
+        <div class="inner">
+          <p>
+            Lembre-se: o animal pode proteger você de acidentes, mas você deve <br />
+            protegê-los também. Além do que é proibido na nossa
+            <a href="http://www.planalto.gov.br/ccivil_03/leis/L9605.htm#art32"
+               data-ga-event="click"
+               data-ga-category="Aluguel/Botoes/CTA"
+               data-ga-action="VerL9605art32--l1"
+               data-ga-label="CTAAluguel"
+               >
+              apólice de seguros
+            </a><br />
+            <strong>Você NÃO está autorizado a andar em vias publicas ou locais<br />
+              perigosos olhando para tela do seu celular portando nossos animais</strong>.
+          </p>
+          <ul class="actions">
+            <li>
+              <!--
+                For obvious reasons, share on WhatsApp only works on mobile that have WhatsApp installed
+                WhatsApp Web will not work by limitation of WhatsApp at present date
+              -->
+              <a href="whatsapp://send?text=Aluguel+de+animais+para+jogar+Pokemon+GO%0D%0Ahttp%3A%2F%2Fpokemongo.vet.br%2Faluguel-de-animais.html"
+                 title="Share on WhatsApp" target="_blank"
+                 data-ga-event="click"
+                 data-ga-category="Aluguel/Botoes/CTA"
+                 data-ga-action="SharedOn/WhatsApp"
+                 data-ga-label="CTAFimPagina">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i> Compartilhe no WhatsApp
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/sharer/sharer.php?p%5Burl%5D=http%3A%2F%2Fpokemongo.vet.br%2Faluguel-de-animais.html"
+                 title="Share on Facebook" target="_blank"
+                 data-ga-event="click"
+                 data-ga-category="Aluguel/Botoes/CTA"
+                 data-ga-action="SharedOn/Facebook"
+                 data-ga-label="CTAFimPagina">
+                <i class="fa fa-facebook" aria-hidden="true"></i> Compartilhe no Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/home?status=Aluguel+de+animais+para+jogar+Pokemon+GO%0D%0Ahttp%3A%2F%2Fpokemongo.vet.br%2Faluguel-de-animais.html"
+                 title="Share on Twitter" target="_blank"
+                 data-ga-event="click"
+                 data-ga-category="Aluguel/Botoes/CTA"
+                 data-ga-action="SharedOn/Twitter"
+                 data-ga-label="CTAFimPagina">
+                <i class="fa fa-twitter" aria-hidden="true"></i> Compartilhe no Twitter
+              </a>
+            </li>
+          </ul>
+          <ul class="actions">
+            <li><a href="./sobre.html" class="button small"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Sobre o projeto</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li><a target="_blank" href="https://twitter.com/pokemongovet" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/PokemonGoVet" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+          <!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+          <li><a href="mailto:pokemongo.vetbr(arroba)gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+          <li>Algum abrigo de animais abandonados perto de você &copy; 2016</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+        <p>
+          Pokémon® é uma marca registrada da Nintendo para jogos eletronicos e materiais promocionais.<br />
+          Não confundir com o animal de estimação adotado, chamado "Pokemon", de um amigo que mora em GOiás.
+        </p>
+      </footer>
+    </div>
+
+    <a href="https://github.com/pokemongovet/pokemongo.vet.br"><img class="forkme" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script>
+      // REMOVA O CÓDIGO DE TRACKEAMENTO DO GOOGLE ANALYTICS SE VOCE FOR FAZER UM FORK DISTO PARA UM PROJETO DIFERENTE!
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      if (window.location.host.indexOf("pokemongo.vet.br") !== -1) {
+        console.log('GA PokemonGo principal carregado');
+        ga('create', 'UA-81144117-1', 'auto');
+      } else {
+        console.log('GA PokemonGo **DEBUG** carregado');
+        ga('create', 'UA-81144117-2', 'auto');
+      }
+      ga('send', 'pageview');
+    </script>
+    <script src="assets/js/gaet.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
