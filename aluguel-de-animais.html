@@ -141,7 +141,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="landing">
-
+	<div id="bio_ep_content"><!-- your popup HTML goes here --></div>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
 
@@ -382,7 +382,7 @@
               <li>Proibido uso em vias publicas</li>
             </ul>
           </div>
-          <div class="plan">
+          <div id="adote" class="plan">
             <h3 style="color: black">Promocional<span>R$0*</span></h3>
             <a class="signup" href="./adote-um-pokemon-de-verdade.html?pacote=promocional"
                data-ga-event="click"
@@ -393,6 +393,7 @@
             <ul>
               <li>Aluguel por tempo ilimitado</li>
               <li>Cupom: <span style="color: blue; font-weight: 700">#ADOCAOPOKEMON</span></li>
+              <li>Só restam:<b><span id="poketimer">10:00</span></b>!</li>
               <li>Proibido uso em vias publicas</li>
             </ul>
           </div>
@@ -474,7 +475,7 @@
         </p>
       </footer>
     </div>
-
+    
     <a href="https://github.com/pokemongovet/pokemongo.vet.br"><img class="forkme" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 
     <!-- Scripts -->
@@ -508,5 +509,31 @@
     </script>
     <script src="assets/js/gaet.js"></script>
     <script src="assets/js/main.js"></script>
+    
+    <!-- pokepoodle.js -->
+    <script src="assets/js/plugins/pokepoodle.js"></script>
+    <link rel="stylesheet" href="assets/css/ouibounce.css">
+    
+	<!-- PokéPopup Modal -->
+	<div id="ouibounce-modal">
+		<div class="underlay"></div>
+		<div class="modal">
+			<div class="modal-title">
+				<h3>Temos que pegar!</h3>
+			</div>
+			<div class="modal-body">
+				<span><i class="fa fa-paw fa-5x" aria-hidden="true"></i></span>
+				<h3>Opa, Opa, Opa</h3>
+				<p>Porque já vai sair? Já alugou seu <b>PET</b>?</p>
+				<p><b></b></p>
+				<p><a href="#cta" class="button special fit small">Tá, eu quero!</a></p>
+			</div>
+			<div class="modal-footer">
+				<p>ok, pode fechar</p>
+			</div>
+		</div>
+	</div>	
+	<!-- PokéPopup Modal js -->
+	<script>var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'),{aggressive:true,timer:0,callback:function(){console.log('ouibounce fired!');}});$('body').on('click',function(){$('#ouibounce-modal').hide();});$('#ouibounce-modal .modal-footer').on('click',function(){$('#ouibounce-modal').hide();});$('#ouibounce-modal .modal').on('click',function(e){e.stopPropagation();});</script>
   </body>
 </html>
