@@ -21,7 +21,7 @@
 }
 
 #pricing-table #most-popular {
-  z-index: 2;
+  /*z-index: 2;*/
   top: -13px;
   border-width: 3px;
   padding: 30px 20px;
