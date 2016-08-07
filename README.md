@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 184+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RS, RJ, SP, SC)
+# PokemonGo.vet.br: 190+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RS, RJ, SP, SC)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -45,8 +45,9 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 - Pernambuco: +8 (Pernambuco)
 - Piauí: +4 (Teresina)
 - Rio Grande do Norte: +6 (Natal)
-- Rio Grande do Sul: 15+ (Bagé, Camaquã, Esteio, Osório, Porto Alegre, Viamão)
+- Rio Grande do Sul: 16+ (Bagé, Camaquã, Esteio, Osório, Porto Alegre, Viamão)
 - Rio de Janeiro: 11+ (Rio de Janeiro)
+- Rondônia: 5+ (Porto Velho)
 - Santa Catarina: 3+ (Florianopólis)
 - São Paulo: 20+ (Santos, São Paulo, ABCD)
 
