@@ -53,12 +53,14 @@
   padding: 20px 35px;
   font-size: 0.9em;
 }
+.modal-body span {color:#333;} /* Correção da cor do ícone */
+
 #ouibounce-modal .modal-body h3 {
   color: #333;
   font-weight: bold;
   text-transform: uppercase;
 }
-#ouibounce-modal p, b, span {
+#ouibounce-modal p, b {
   color: #333;
 }
 #ouibounce-modal .modal-footer {
