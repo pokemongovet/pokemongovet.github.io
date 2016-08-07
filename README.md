@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 106+ locais para adoção (AC, AL, AM, BA, CE, DF, ES, MA, MT, MG, RS, RJ, SP, SC)
+# PokemonGo.vet.br: 112+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MG, RS, RJ, SP, SC)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -29,6 +29,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 - Acre: 2+ (Rio Branco)
 - Alagoas: 4+ (Maceió)
 - Amazonas: 16+ (Manaus)
+- Amapá: 4+ (Macapá)
 - Bahia : 8+ (Salvador)
 - Ceará: 11+ (Fortaleza)
 - Distrito Federal: 10+ (Brasília)
