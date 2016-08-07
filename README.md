@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 112+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MG, RS, RJ, SP, SC)
+# PokemonGo.vet.br: 119+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, RS, RJ, SP, SC)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -37,6 +37,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 - Goiás: 10+ (Goiânia)
 - Maranhão: 7+ (São Luiz)
 - Mato Grosso: 4+ (Cuiabá)
+- Mato Grosso do Sul: 7+ (Campo Grande)
 - Minas Gerais: 2+ (Uberlândia)
 - Rio Grande do Sul: 15+ (Bagé, Camaquã, Esteio, Osório, Porto Alegre, Viamão)
 - Rio de Janeiro: 11+ (Rio de Janeiro)
