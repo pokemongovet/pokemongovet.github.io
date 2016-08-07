@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 192+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SP, SC)
+# PokemonGo.vet.br: 196+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SE, SP, SC)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -51,6 +51,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 - Roraima: 2+ (Boa Vista)
 - Santa Catarina: 3+ (Florianopólis)
 - São Paulo: 20+ (Santos, São Paulo, ABCD)
+- Sergipe: 4+ (Aracaju)
 
 ## Como contribuir
 
