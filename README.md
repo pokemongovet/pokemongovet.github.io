@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 201+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SE, SP, SC, TO)
+# PokemonGo.vet.br: 201+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SE, SP, SC, TO) [![PokemonGoVet Rocket.chat](https://demo.rocket.chat/images/join-chat.svg)](https://pgovet.rocket.chat/)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
