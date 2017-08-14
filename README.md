@@ -1,4 +1,4 @@
-# PokemonGo.vet.br: 201+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SE, SP, SC, TO) [![PokemonGoVet Rocket.chat](https://demo.rocket.chat/images/join-chat.svg)](https://pgovet.rocket.chat/)
+# pokemongovet.github.io: 201+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SE, SP, SC, TO) [![PokemonGoVet Rocket.chat](https://demo.rocket.chat/images/join-chat.svg)](https://pgovet.rocket.chat/)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -13,9 +13,9 @@ de incentivar a adoção de animais reais. Atua com compartilhamento de código
 aberto e ações de marketing em redes sociais.
 
 **Detaque**
-- Saiba mais sobre [Solução Ponta-a-Ponta para adoção de animais (i.e. “Catioro GO”)](https://github.com/pokemongovet/pokemongo.vet.br/issues/27)
-- Não sabe programar mas quer ajudar? [Lista de problemas que não programadores fazem toda diferença](https://github.com/pokemongovet/pokemongo.vet.br/labels/para-nao-programadores)
-- Sabe HTML? [Ajude agora mesmo a cumprirmos a 2ª meta da iniciativa](https://github.com/pokemongovet/pokemongo.vet.br/issues/36).
+- Saiba mais sobre [Solução Ponta-a-Ponta para adoção de animais (i.e. “Catioro GO”)](https://github.com/pokemongovet/pokemongovet.github.io/issues/27)
+- Não sabe programar mas quer ajudar? [Lista de problemas que não programadores fazem toda diferença](https://github.com/pokemongovet/pokemongovet.github.io/labels/para-nao-programadores)
+- Sabe HTML? [Ajude agora mesmo a cumprirmos a 2ª meta da iniciativa](https://github.com/pokemongovet/pokemongovet.github.io/issues/36).
 Precisamos listar as milhares de opções, e [cada local FAZ diferença](https://www.youtube.com/watch?v=5-sfG8BV8wU)!
 
 ## Quem está por trás do projeto
@@ -23,7 +23,7 @@ Precisamos listar as milhares de opções, e [cada local FAZ diferença](https:/
 As Líderes de Ginásio são a **Isadora Coffani** [@icoffani](https://github.com/icoffani) e
 a **Renata Givisiez** [@rcgivisiez](https://github.com/rcgivisiez).
 
-Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemongo.vet.br/graphs/contributors).
+Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemongovet.github.io/graphs/contributors).
 
 ## Centros pokemon cadastrados (aka locais para adoção de animais)
 - Acre: 2+ (Rio Branco)
@@ -59,7 +59,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 Se você quer fazer sugestões de código, como cadastro de novos centros pokemon
 (aka locais para adoção responsável) pode fazer um Pull Request aqui. Se não
 souber o que isso significa, pode simplesmente enviar as sugestões via página
-[http://pokemongo.vet.br/indicar-centro-pokemon.html](http://pokemongo.vet.br/indicar-centro-pokemon.html)
+[http://pokemongovet.github.io/indicar-centro-pokemon.html](http://pokemongovet.github.io/indicar-centro-pokemon.html)
 
 ## Outras formas de contribuir com o projeto
 
