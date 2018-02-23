@@ -47,6 +47,10 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	i{
+		font-size: 20px;
+		color: #565656;
+	}
 
 /* Box Model */
 
@@ -56,6 +60,11 @@
 		box-sizing: border-box;
 	}
 
+/*Bg Color*/
+.bg-orange{
+	background-color: #ed4933;
+    padding: 5px 10px 0px 10px;
+}
 /* Grid */
 
 	.row {
@@ -3839,6 +3848,9 @@
 /* Listagem */
 	.listagem hr {
 		clear: both;
+	}
+	.listagem-nav h3{
+		color: white !important;
 	}
 	.listagem-nav ul {
 		float: left;
