@@ -1609,7 +1609,7 @@
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: #ffffff;
 		position: relative;
 		top: -0.25em;
 	}
@@ -1642,7 +1642,7 @@
 			}
 
 		header.major p {
-			color: #fff;
+			color: #ffffff;
 			top: 0;
 		}
 
@@ -2653,7 +2653,7 @@
 
 		.wrapper.style1 {
 			background-color: #21b2a6;
-			color: #c7ebe8;
+			color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2677,7 +2677,8 @@
 			}
 
 			.wrapper.style1 header p {
-				color: #a6e0db;
+				color: #ffffff;
+				
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
@@ -2685,7 +2686,7 @@
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c7ebe8;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -3612,6 +3613,7 @@
 			#cta .inner {
 				display: block;
 				text-align: center;
+
 			}
 
 				#cta .inner header {
