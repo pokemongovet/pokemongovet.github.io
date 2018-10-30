@@ -40,7 +40,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 - Mato Grosso do Sul: 7+ (Campo Grande)
 - Minas Gerais: 2+ (Uberlândia)
 - Pará : +6 (Pará)
-- Paraíba: +5 (João Pessoa)
+- Paraíba: +6 (João Pessoa)
 - Paraná: +16 (Curitiba)
 - Pernambuco: +8 (Pernambuco)
 - Piauí: +4 (Teresina)
