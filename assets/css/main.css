@@ -3904,4 +3904,28 @@
 		left: 0px;
 		border: 0px none;
 		z-index: 10001;
+
+		-webkit-transform: translate(calc(-.707 * (42.9em - 100%) + 100%), calc(.707 * 12.2em)) rotate(315deg);
+            transform: translate(calc(-.707 * (42.9em - 100%) + 100%), calc(.707 * 12.2em)) rotate(315deg);
+    	-webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+
+		width: 16em;
+    	padding: 1em 0;
+    	box-sizing: border-box;
+
+		text-align: center;
+		color: white;
+		background-color: #B22222;
+		border: .25em solid black;
+
+		font-family: "Open Sans Condensed", sans-serif;
+		font-size: 1.3em;
+	}
+
+	.forkme:hover,
+	.forkme:focus{
+		background-color: white;
+		color: #B22222;
+		font-style: bold;
 	}
