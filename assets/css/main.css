@@ -2678,7 +2678,7 @@
 
 			.wrapper.style1 header p {
 				color: #ffffff;
-				
+
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
@@ -3843,7 +3843,7 @@
 		}
 		.register-form .special {
 			float: none;
-			width: 100%;		
+			width: 100%;
 		}
 	}
 
@@ -3895,7 +3895,7 @@
 			line-height: 2em;
 		}
 	}
-	
+
 	/* Fork Ribbon */
 
 	.forkme {
@@ -3905,22 +3905,22 @@
 		border: 0px none;
 		z-index: 10001;
 
-		-webkit-transform: translate(calc(-.707 * (42.9em - 100%) + 100%), calc(.707 * 12.2em)) rotate(315deg);
-            transform: translate(calc(-.707 * (42.9em - 100%) + 100%), calc(.707 * 12.2em)) rotate(315deg);
+		-webkit-transform: translate(calc(-.707 * (41.9em - 100%) + 100%), calc(.707 * 13em)) rotate(315deg);
+            transform: translate(calc(-.707 * (41.9em - 100%) + 100%), calc(.707 * 13em)) rotate(315deg);
     	-webkit-transform-origin: 0 0;
             transform-origin: 0 0;
 
 		width: 16em;
-    	padding: 1em 0;
+    	padding: .5em 0;
     	box-sizing: border-box;
 
 		text-align: center;
 		color: white;
 		background-color: #B22222;
-		border: .25em solid black;
+		border: .1em solid white;
 
 		font-family: "Open Sans Condensed", sans-serif;
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	.forkme:hover,
