@@ -527,8 +527,7 @@
 			<div class="modal-body">
 				<span><i class="fa fa-paw fa-5x" aria-hidden="true"></i></span>
 				<h3>Opa, Opa, Opa</h3>
-				<p>Porque já vai sair? Já alugou seu <b>PET</b>?</p>
-				<p><b></b></p>
+				<p>Porque já vai sair? Já alugou seu <b>PET</b>?</p>				
 				<p><a href="#cta" class="button special fit small">Tá, eu quero!</a></p>
 			</div>
 			<div class="modal-footer">
@@ -537,6 +536,6 @@
 		</div>
 	</div>
 	<!-- PokéPopup Modal js -->
-	<script>var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'),{aggressive:true,timer:0,callback:function(){console.log('ouibounce fired!');}});$('body').on('click',function(){$('#ouibounce-modal').hide();});$('#ouibounce-modal .modal-footer').on('click',function(){$('#ouibounce-modal').hide();});$('#ouibounce-modal .modal').on('click',function(e){e.stopPropagation();});</script>
+	<script>var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'),{aggressive: true,timer:0,callback:function() {console.log('ouibounce fired!');}});$('body, #ouibounce-modal p, #ouibounce-modal .modal a').on('click', () => $("#ouibounce-modal").hide());$('#ouibounce-modal .modal').on('click',function(e) {e.stopPropagation()});</script>
   </body>
 </html>
