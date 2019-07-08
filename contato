@@ -52,10 +52,6 @@
                   <li><a href="http://casosdesucesso.pokemongovet.github.io/?utm_source=pokemongovet&utm_medium=link-texto&utm_content=menu-principal&utm_campaign=sites-grupo-pokemongovet">Casos de Sucesso</a></li>
                   <li><a href="./sobre.html">Sobre</a></li>
                   <li><a href="./contato.html">Contato</a></li>
-                  <!--<li><a href="generic.html">Generic</a></li>
-                  <li><a href="elements.html">Elements</a></li>
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">Log In</a></li>-->
                 </ul>
               </div>
             </li>
@@ -104,8 +100,6 @@
         <ul class="icons">
           <li><a target="_blank" href="https://twitter.com/pokemongovet" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
           <li><a target="_blank" href="https://www.facebook.com/PokemonGoVet" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-          <!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-          <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
           <li><a href="mailto:pokemongo.vetbr(arroba)gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
         </ul>
         <ul class="copyright">
