@@ -70,24 +70,24 @@
             <p>Nota: se preferir, pode enviar sua sugestão diretamente via o e-mail pokemongovet.github.io@gmail.com</p>
             <form action="https://formspree.io/pokemongo.vet.br@gmail.com" method="POST" class="register-form">
 
-              <label for="">
+              <label for="assunto">
                 Assunto
-                <input type="text" name="nome" required>
+                <input type="text" name="assunto" id="assunto" required>
               </label>
 
-              <label>
+              <label for="descricao">
                 Descrição
-                <textarea name="desc" id="" cols="30" rows="5"></textarea>
+                <textarea name="desc" cols="30" rows="5" id="descricao"></textarea>
               </label>
 
-              <label for="">
+              <label for="nome">
                 Nome
-                <input type="text" name="nome" required>
+                <input type="text" name="nome" id="nome" required>
               </label>
 
-              <label>
+              <label for="email-contrib">
                 Seu e-mail de contato (opcional)
-                <input type="email" name="email-contrib">
+                <input type="email" name="email-contrib" id="email-contrib" >
               </label>
               <input type="submit" class="special">
             </form>
