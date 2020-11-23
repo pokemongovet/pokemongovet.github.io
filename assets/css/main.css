@@ -3016,6 +3016,7 @@
 			.wrapper.style5 input[type="text"],
 			.wrapper.style5 input[type="password"],
 			.wrapper.style5 input[type="email"],
+      .wrapper.style5 input[type="tel"],
 			.wrapper.style5 select,
 			.wrapper.style5 textarea {
 				background: rgba(0, 0, 0, 0.0375);
