@@ -1,4 +1,4 @@
-# pokemongovet.github.io: 201+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SE, SP, SC, TO) [![PokemonGoVet Rocket.chat](https://demo.rocket.chat/images/join-chat.svg)](https://pgovet.rocket.chat/)
+# pokemongovet.github.io: 201+ locais para adoção (AC, AL, AM, AP, BA, CE, DF, ES, MA, MT, MS, MG, PA, PB, PE, PR, RO, RR, RS, RJ, SE, SP, SC, TO)
 
 Este repositório contém HTML estático, usado como fonte para um site informativo
 com a temática de convencer pessoas a adotarem animais de estimação.
@@ -15,8 +15,7 @@ aberto e ações de marketing em redes sociais.
 **Detaque**
 - Saiba mais sobre [Solução Ponta-a-Ponta para adoção de animais (i.e. “Catioro GO”)](https://github.com/pokemongovet/pokemongovet.github.io/issues/27)
 - Não sabe programar mas quer ajudar? [Lista de problemas que não programadores fazem toda diferença](https://github.com/pokemongovet/pokemongovet.github.io/labels/para-nao-programadores)
-- Sabe HTML? [Ajude agora mesmo a cumprirmos a 2ª meta da iniciativa](https://github.com/pokemongovet/pokemongovet.github.io/issues/36).
-Precisamos listar as milhares de opções, e [cada local FAZ diferença](https://www.youtube.com/watch?v=5-sfG8BV8wU)!
+- Sabe HTML? Precisamos listar as milhares de opções, e [cada local FAZ diferença](https://www.youtube.com/watch?v=5-sfG8BV8wU)!
 
 ## Quem está por trás do projeto
 
