@@ -49,7 +49,7 @@ Veja a [lista completa de Pokemon Master](https://github.com/pokemongovet/pokemo
 - Rondônia: 5+ (Porto Velho)
 - Roraima: 2+ (Boa Vista)
 - Santa Catarina: 3+ (Florianopólis)
-- São Paulo: 20+ (Santos, São Paulo, ABCD)
+- São Paulo: 20+ (Santos, São Paulo, ABCD, São José do Rio Preto, Jaboticabal)
 - Sergipe: 4+ (Aracaju)
 - Tocantins: 5+ (Palmas)
 
