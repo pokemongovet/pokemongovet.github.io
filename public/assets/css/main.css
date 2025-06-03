@@ -1407,7 +1407,7 @@ html {
 	}
 
 	body {
-		background: #2e3842;
+		background: #020001;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1422,7 +1422,7 @@ html {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #ffffff;
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -1569,7 +1569,7 @@ html {
 	}
 
 	code {
-		background: rgba(144, 144, 144, 0.25);
+		background: rgba(3, 3, 3, 0.25);
 		border-radius: 3px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
@@ -1688,7 +1688,7 @@ html {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(144, 144, 144, 0.25);
+		background: rgba(0, 0, 0, 0.25);
 		border-radius: 3px;
 		border: none;
 		color: inherit;
@@ -1714,7 +1714,7 @@ html {
     input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #e0dd1a;
 		}
 
 	.select-wrapper {
@@ -1826,7 +1826,7 @@ html {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #e6e933;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1947,7 +1947,7 @@ html {
 		}
 
 		.icon.style3 {
-			color: #03caa8;
+			color: #e6cf06;
 		}
 
 /* Image */
@@ -2445,7 +2445,7 @@ html {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #db382c;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2658,12 +2658,12 @@ html {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #ffffff;
+			background-color: #d34431;
+			color: #f7f2f2;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #ffffff;
+				color: #f5e7e7;
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
@@ -2671,11 +2671,11 @@ html {
 			}
 
 			.wrapper.style1 hr {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: rgba(240, 235, 235, 0.125);
 			}
 
 			.wrapper.style1 blockquote {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: rgba(255, 255, 255, 0.125);
 			}
 
 			.wrapper.style1 code {
@@ -2688,15 +2688,15 @@ html {
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: rgba(255, 255, 255, 0.125);
 			}
 
 			.wrapper.style1 header.major p {
-				color: #ffffff;
+				color: #fdfdfd;
 			}
 
 			.wrapper.style1 label {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			.wrapper.style1 input[type="text"],
@@ -2724,7 +2724,7 @@ html {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #050505;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2813,20 +2813,20 @@ html {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #1b1a1a;
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
-			color: #d3d4e4;
+			background-color: #e2c72c;
+			color: #020202;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #ffffff;
+				color: #0c0c0c;
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: #161414;
 			}
 
 			.wrapper.style3 hr {
@@ -2842,7 +2842,7 @@ html {
 			}
 
 			.wrapper.style3 header p {
-				color: #b9bad3;
+				color: #000000;
 			}
 
 			.wrapper.style3 header.major h2, .wrapper.style3 header.major h3, .wrapper.style3 header.major h4, .wrapper.style3 header.major h5, .wrapper.style3 header.major h6 {
@@ -2850,11 +2850,11 @@ html {
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: #030303;
 			}
 
 			.wrapper.style3 label {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			.wrapper.style3 input[type="text"],
@@ -3012,7 +3012,7 @@ html {
 			}
 
 			.wrapper.style5 label {
-				color: #2E3842;
+				color: #000000;
 			}
 
 			.wrapper.style5 input[type="text"],
@@ -3040,7 +3040,7 @@ html {
 
 			.wrapper.style5 input[type="checkbox"]:checked + label:before,
 			.wrapper.style5 input[type="radio"]:checked + label:before {
-				background: #2E3842;
+				background: #030303;
 				color: #ffffff;
 			}
 
@@ -3081,7 +3081,7 @@ html {
 				}
 
 			.wrapper.style5 table th {
-				color: #2E3842;
+				color: #030303;
 			}
 
 			.wrapper.style5 table thead {
@@ -3102,7 +3102,7 @@ html {
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				color: #070707;
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3179,7 +3179,7 @@ html {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #000000;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3273,7 +3273,7 @@ html {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #070707;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3528,7 +3528,7 @@ html {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #050505;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3721,7 +3721,7 @@ html {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #070707;
 		text-align: center;
 	}
 
@@ -3811,7 +3811,7 @@ html {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(7, 7, 7, 0.9);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3830,7 +3830,7 @@ html {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #000000;
 	}
 
 /* Contact Form */
@@ -3876,7 +3876,7 @@ html {
 	.listagem-place h3 {
 		margin: 0;
 		font-size: 1em;
-		color: #2E3842;
+		color: #050505;
 	}
 	.listagem-place ul {
 		margin: 0;
